@@ -3,12 +3,8 @@
   "description": "semantic-release action",
   "main": "index.js",
   "license": "ISC",
-  "scripts": {
-    "build": "ncc build --minify index.js"
-  },
   "dependencies": {
     "@actions/core": "^1.4.0",
-    "@actions/github": "^4.0.0",
     "semantic-release": "^17.4.3"
   }
 }
