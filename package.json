@@ -9,14 +9,6 @@
   "dependencies": {
     "@actions/core": "^1.4.0",
     "@actions/github": "^4.0.0",
-    "@semantic-release/commit-analyzer": "^8.0.0",
-    "@semantic-release/github": "^7.0.0",
     "semantic-release": "^17.4.3"
-  },
-  "devDependencies": {
-    "@vercel/ncc": "^0.28.6",
-    "eslint": "^7.28.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.4"
   }
 }
