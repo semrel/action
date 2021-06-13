@@ -1,0 +1,5 @@
+name: Semantic release
+description: Action to run semantic release
+runs:
+  using: node12
+  main: index.js
