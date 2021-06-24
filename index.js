@@ -5,7 +5,7 @@ const run = async () => {
   try {
     const result = await semanticRelease();
     console.log(result);
-    if (result?.nextRelease?.version) {
+    if (result && result.nextRelease && result.nextRelease.version) {
       core.exportVariable('RELEASE_VERSION', result.nextRelease.version);
     }
   } catch (error) {
